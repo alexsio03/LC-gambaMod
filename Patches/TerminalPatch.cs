@@ -195,7 +195,7 @@ namespace gamba.Patches
             string[] parts = input.Split(' ');
 
             // Check if the input has the correct format
-            if (parts.Length == 2 && int.TryParse(parts[1], out betAmount))
+            if (parts.Length == 2 && int.TryParse(parts[1], out betAmount) && betAmount > 0)
             {
                 return true;
             }

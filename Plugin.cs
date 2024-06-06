@@ -15,7 +15,7 @@ namespace gamba
     {
         private const string modGUID = "Alexsio.GambaMod";
         private const string modName = "GambaMod";
-        private const string modVersion = "1.0.0";
+        private const string modVersion = "1.0.8";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
